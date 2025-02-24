@@ -19,6 +19,7 @@ const val TAG = "MainActivity"
  * In here, i not using MVVM cause this code is simple and does not require more complex folders and files
  */
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
 
     // Not using MVVM
