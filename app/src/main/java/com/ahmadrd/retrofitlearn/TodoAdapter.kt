@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.ahmadrd.retrofitlearn.databinding.ItemTodoBinding
 
+// Still not using ListAdapter
 class TodoAdapter: RecyclerView.Adapter<TodoAdapter.TodoViewHolder>() {
 
     inner class TodoViewHolder(val binding: ItemTodoBinding):  RecyclerView.ViewHolder(binding.root)
